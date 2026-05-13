@@ -1,0 +1,9 @@
+# This repository publishes installable Codex pet packages only.
+# Keep source images, prompts, run folders, archives, and other local artifacts out.
+*
+
+!.gitignore
+!pets/
+!pets/**/
+!pets/**/pet.json
+!pets/**/spritesheet.webp
